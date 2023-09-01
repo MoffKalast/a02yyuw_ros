@@ -1,0 +1,25 @@
+<package format="2">
+	<name>a02yyuw_ros</name>
+	<version>0.1.1</version>
+	<description>Waterproof sonar module driver.</description>
+
+	<maintainer email="vid.rijavec@gmail.com">MoffKalast</maintainer>
+	<author>MoffKalast</author>
+	<license>MIT</license>
+
+	<depend>rospy</depend>
+
+	<buildtool_depend>catkin</buildtool_depend>
+	<build_depend>std_msgs</build_depend>
+    <build_depend>geometry_msgs</build_depend>
+	<build_depend>sensor_msgs</build_depend>
+
+	<build_export_depend>std_msgs</build_export_depend>
+	<build_export_depend>geometry_msgs</build_export_depend>
+	<build_export_depend>sensor_msgs</build_export_depend>
+
+	<exec_depend>std_msgs</exec_depend>
+	<exec_depend>geometry_msgs</exec_depend>
+	<exec_depend>sensor_msgs</exec_depend>
+
+</package>

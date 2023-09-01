@@ -1,0 +1,9 @@
+<launch>
+
+	<node name="a02yyuw_ros" pkg="a02yyuw_ros" type="sonar.py" output="screen">
+	    <param name="port" value="/dev/ttyUSB0"/>
+	    <param name="publishing_topic" value="sonar"/>
+	    <param name="publishing_frame" value="base_link"/>
+	</node>
+
+</launch> 
