@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 
+'''!
+  @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
+  @license     The MIT License (MIT)
+  @author      Arya(xue.peng@dfrobot.com)
+  @version     V1.0
+  @date        2021-08-30
+  @url https://github.com/DFRobot/DFRobot_RaspberryPi_A02YYUW
+'''
+
 import rospy
 from sensor_msgs.msg import Range
 import serial
